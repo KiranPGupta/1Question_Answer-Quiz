@@ -12,40 +12,40 @@ wrong=0
 answer = input("what does CPU stand for? ")
 
 if answer.lower() =="central processing unit":
-    print('Correct!', "\U0001f600")
+    print('Correct!')
     score+=1
   
 else:
-     print('Incorrect!', "🙀")
+     print('Incorrect!')
      wrong+=1
 
 answer = input("what does GPU stand for ? ")
 
 if answer.lower() =="graphic processing unit":
-    print('Correct!', "\U0001f600")
+    print('Correct!')
     score+=1
     
 else:
-    print('Incorrect!', "🙀")
+    print('Incorrect!')
     wrong+=1
     
 
 answer = input("what does RAM stand for ? ")
 
 if answer.lower() =="random access memory":
-    print('Correct!', "\U0001f600")
+   print('Correct!')
     score+=1
 else:
-    print('Incorrect!', "🙀")
+    print('Incorrect!')
     wrong+=1
 
 answer = input("what does PSU stand for ? ")
 
 if answer.lower() =="power supply":
-    print('Correct!', "\U0001f600")
+    print('Correct!')
     score+=1
 else:
-    print('Incorrect!', "🙀")
+    print('Incorrect!')
     wrong+=1
    
 
