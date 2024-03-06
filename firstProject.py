@@ -34,7 +34,7 @@ answer = input("what does RAM stand for ? ")
 
 if answer.lower() =="random access memory":
    print('Correct!')
-    score+=1
+   score+=1
 else:
     print('Incorrect!')
     wrong+=1
@@ -55,4 +55,3 @@ print("Total Correct Answers!", str(score),"/4"," Total Incorrect Answers! "+ st
 print("You got " + str((score/4)*100) + " %.")
 
     
-
